@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="ut-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Formulário</h1>
+        <form method="post" action="http://hebertphp.awardspace.us/recebe.php">
+            <label for="login">Login<b>*</b></label>
+            <input type="text" id="login" name="login" placeholder="Digite seu login:" required>
+            <label for="senha">Senha<b>*</b></label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha:" required>
+            <label for="data">Data/Hora</label>
+            <input type="datetime-local" id="data" name="data">
+            <input type="submit" id="enviar" value="Enviar">
+        </form>
+    </body>
+</html>
